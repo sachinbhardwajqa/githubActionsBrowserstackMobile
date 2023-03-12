@@ -33,7 +33,7 @@ public class BrowserStackSample {
     	// Set other BrowserStack capabilities
     	caps.setCapability("project", "First Java Project");
     	caps.setCapability("build", "browserstack-build-1");
-    	caps.setCapability("name", "first_test");
+    	caps.setCapability("name", "second_test");
        
     	
     	// Initialise the remote Webdriver using BrowserStack remote URL
