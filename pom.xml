@@ -36,6 +36,10 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    <systemPropertyVariables>
+                        <browserstack.user>${env.BROWSERSTACK_USERNAME}</browserstack.user>
+                        <browserstack.key>${env.BROWSERSTACK_ACCESS_KEY}</browserstack.key>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
         </plugins>
