@@ -10,8 +10,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Test;
+
 public class BrowserStackSample {
-	public static void main(String[] args) throws MalformedURLException, InterruptedException {
+	@Test
+	public void demoTest() throws MalformedURLException, InterruptedException {
 		
     	DesiredCapabilities caps = new DesiredCapabilities();
     	
