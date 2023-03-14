@@ -23,16 +23,18 @@ public class BrowserStackSample {
 		caps.setCapability("browserstack.key", System.getenv("BROWSERSTACK_ACCESS_KEY"));
     	
     	// Set URL of the application under test
-    	caps.setCapability("app", "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c");
+    	// caps.setCapability("app", "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c");
+	caps.setCapability("app", "bs://2d98568077ea676dfc84f3c6fca457a0c675e798");
+		
     	
     	// Specify device and os_version for testing
         caps.setCapability("device", "Google Pixel 3");
         caps.setCapability("os_version", "9.0");
         
     	// Set other BrowserStack capabilities
-    	caps.setCapability("project", "First Java Project");
+    	caps.setCapability("project", "2nd Java Project");
     	caps.setCapability("build", "browserstack-build-1");
-    	caps.setCapability("name", "Demo");
+    	caps.setCapability("name", "Demo Baliston");
        
     	
     	// Initialise the remote Webdriver using BrowserStack remote URL
